@@ -1,4 +1,4 @@
-# Diretório Compressor e Enviador para DigitalOcean Spaces
+# Comprimir e Enviar arquivos para DigitalOcean Spaces
 
 Este projeto é um aplicativo Node.js que comprime um diretório e faz o upload do arquivo compactado para o DigitalOcean Spaces. Além disso, inclui um cron job para executar essa tarefa em um intervalo regular.
 
@@ -13,13 +13,13 @@ Este projeto é um aplicativo Node.js que comprime um diretório e faz o upload 
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/HerdesonMourao/CompressedBackupUpload.git
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd seu-projeto
+   cd CompressedBackupUpload
    ```
 
 3. Instale as dependências usando o NPM:
@@ -68,4 +68,4 @@ O cron job está configurado para executar automaticamente todos os dias às 2 d
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar solicitações de pull (pull requests) para melhorar este projeto.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT.
+Este projeto está licenciado sob a [Licença MIT](./LICENSE).
