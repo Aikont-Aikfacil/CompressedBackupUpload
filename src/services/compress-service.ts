@@ -19,7 +19,7 @@ class CompressService {
 
     const output = fs.createWriteStream(this.outputFileName);
 
-    return new Promise<void>((resolve, reject) => {
+    return await new Promise<void>((resolve, reject) => {
       archive.on('error', (err) => reject(err));
 
       archive.on('end', () => resolve());

@@ -32,10 +32,14 @@ Este projeto é um aplicativo Node.js que comprime um diretório e faz o upload 
 
    ```env
    PORT=4000  # Porta em que o servidor será executado (opcional)
+
    ACCESS_KEY_ID=sua-chave-de-acesso
    SECRET_ACCESS_KEY=sua-chave-secreta
    ENDPOINT=https://nyc3.digitaloceanspaces.com  # Verifique o endpoint do seu Space
    BUCKET_NAME=nome-do-seu-bucket
+
+   SOURCE_DIR='caminho/do/seu/diretorio'
+   OUTPUT_FILENAME='diretorio_comprimido.zip'
    ```
 
 ## Uso
